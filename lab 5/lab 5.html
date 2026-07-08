@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <script src="lab 5.js"></script>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Product cart</legend>
+            <form onkeyup="return calculate();"></form>
+            
+            <table>
+                <tr>
+        <td><label for="pname">Product Name:</label></td>
+        <td>
+            <input type="text" id="pname" value="Asus Vivobook S15">
+        </td>
+    </tr>
+ 
+    <tr>
+        <td><label for="price">Product Price:</label></td>
+        <td>
+            <input type="text" id="price" value="50000">
+        </td>
+    </tr>
+ 
+    <tr>
+        <td><label for="qty">Product Quantity:</label></td>
+        <td>
+            <select id="qty">
+                <option value="0">0</option>
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+ 
+            <span id="msg" style="color:red; margin-left:10px;"></span>
+        </td>
+    </tr>
+ 
+    <tr>
+        <td><label for="amount">Payable Amount</label></td>
+        <td>
+            <input type="text" id="amount" value="0" readonly>
+        </td>
+    </tr>
+            </table>
+        </fieldset>
+    </body>
+</html>

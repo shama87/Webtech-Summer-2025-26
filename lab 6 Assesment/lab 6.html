@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration</title>
+
+    <link rel="stylesheet" href="lab 6.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Student Registration Form</h2>
+
+        <form id="studentForm">
+
+            <div class="row">
+                <label>First Name <span>*</span></label>
+                <input type="text" id="fname">
+            </div>
+
+            <div class="row">
+                <label>Last Name <span>*</span></label>
+                <input type="text" id="lname">
+            </div>
+
+            <div class="row">
+                <label>Student ID <span>*</span></label>
+                <input type="text" id="sid">
+            </div>
+
+            <div class="row">
+                <label>Email <span>*</span></label>
+                <input type="text" id="email">
+            </div>
+
+            <div class="row">
+                <label>Credit Completed <span>*</span></label>
+                <input type="number" id="credit">
+            </div>
+
+            <div class="row">
+                <label>Department <span>*</span></label>
+
+                <select id="department">
+                    <option value="">Select Department</option>
+                    <option>CSE</option>
+                    <option>CS</option>
+                    <option>SE</option>
+                    <option>EEE</option>
+                    <option>BBA</option>
+                </select>
+            </div>
+
+            <div class="buttonArea">
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+
+    </div>
+
+
+    <div class="listContainer">
+
+        <h2>Registered Students</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Name</th>
+                    <th>ID</th>
+                    <th>Email</th>
+                    <th>Credit</th>
+                    <th>Department</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="studentList">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <script src="lab 6.js"></script>
+
+</body>
+
+</html>

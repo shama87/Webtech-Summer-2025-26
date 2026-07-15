@@ -1,0 +1,100 @@
+body
+{
+    margin:0;
+    padding:0;
+    font-family:Arial;
+    background:#eef5ff;
+}
+
+.container
+{
+    width:450px;
+    margin:30px auto;
+    background:#9cceeb;
+    padding:25px;
+    border-radius:8px;
+    box-shadow:0px 0px 8px rgb(97, 76, 76);
+}
+
+h2
+{
+    text-align:center;
+}
+
+.row
+{
+    margin-bottom:15px;
+}
+
+label
+{
+    display:block;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+span
+{
+    color:red;
+}
+
+input
+{
+    width:100%;
+    padding:8px;
+    box-sizing:border-box;
+}
+
+select
+{
+    width:100%;
+    padding:8px;
+}
+
+.buttonArea
+{
+    text-align:center;
+    margin-top:20px;
+}
+
+button
+{
+    padding:10px 25px;
+    background:rgb(30, 85, 131);
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover
+{
+    background:#2b6cb0;
+}
+
+.listContainer
+{
+    width:80%;
+    margin:30px auto;
+}
+
+table
+{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table,th,td
+{
+    border:1px solid gray;
+}
+
+th
+{
+    background:#d9ecff;
+}
+
+th,td
+{
+    padding:10px;
+    text-align:center;
+}
